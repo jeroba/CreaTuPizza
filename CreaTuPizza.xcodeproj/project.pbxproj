@@ -12,6 +12,12 @@
 		EA9AEB201C8952E9002ED5D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEB1E1C8952E9002ED5D0 /* Main.storyboard */; };
 		EA9AEB221C8952E9002ED5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEB211C8952E9002ED5D0 /* Assets.xcassets */; };
 		EA9AEB251C8952E9002ED5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AEB231C8952E9002ED5D0 /* LaunchScreen.storyboard */; };
+		EAA7A6FC1C8D2FB40073E38E /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A6FB1C8D2FB40073E38E /* VistaMasa.swift */; };
+		EAA7A6FE1C8D2FEE0073E38E /* VistaTamanio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A6FD1C8D2FEE0073E38E /* VistaTamanio.swift */; };
+		EAA7A7001C8D30060073E38E /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A6FF1C8D30060073E38E /* VistaQueso.swift */; };
+		EAA7A7021C8D301B0073E38E /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A7011C8D301B0073E38E /* VistaIngredientes.swift */; };
+		EAA7A7041C8D30340073E38E /* VistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A7031C8D30340073E38E /* VistaConfirmacion.swift */; };
+		EAA7A7061C8D30500073E38E /* VistaProcesada.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7A7051C8D30500073E38E /* VistaProcesada.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		EA9AEB211C8952E9002ED5D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9AEB241C8952E9002ED5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA9AEB261C8952E9002ED5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA7A6FB1C8D2FB40073E38E /* VistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		EAA7A6FD1C8D2FEE0073E38E /* VistaTamanio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamanio.swift; sourceTree = "<group>"; };
+		EAA7A6FF1C8D30060073E38E /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		EAA7A7011C8D301B0073E38E /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		EAA7A7031C8D30340073E38E /* VistaConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaConfirmacion.swift; sourceTree = "<group>"; };
+		EAA7A7051C8D30500073E38E /* VistaProcesada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaProcesada.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				EA9AEB211C8952E9002ED5D0 /* Assets.xcassets */,
 				EA9AEB231C8952E9002ED5D0 /* LaunchScreen.storyboard */,
 				EA9AEB261C8952E9002ED5D0 /* Info.plist */,
+				EAA7A6FB1C8D2FB40073E38E /* VistaMasa.swift */,
+				EAA7A6FD1C8D2FEE0073E38E /* VistaTamanio.swift */,
+				EAA7A6FF1C8D30060073E38E /* VistaQueso.swift */,
+				EAA7A7011C8D301B0073E38E /* VistaIngredientes.swift */,
+				EAA7A7031C8D30340073E38E /* VistaConfirmacion.swift */,
+				EAA7A7051C8D30500073E38E /* VistaProcesada.swift */,
 			);
 			path = CreaTuPizza;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA7A7061C8D30500073E38E /* VistaProcesada.swift in Sources */,
 				EA9AEB1D1C8952E9002ED5D0 /* ViewController.swift in Sources */,
+				EAA7A7041C8D30340073E38E /* VistaConfirmacion.swift in Sources */,
+				EAA7A7001C8D30060073E38E /* VistaQueso.swift in Sources */,
+				EAA7A7021C8D301B0073E38E /* VistaIngredientes.swift in Sources */,
+				EAA7A6FE1C8D2FEE0073E38E /* VistaTamanio.swift in Sources */,
+				EAA7A6FC1C8D2FB40073E38E /* VistaMasa.swift in Sources */,
 				EA9AEB1B1C8952E9002ED5D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +309,7 @@
 				EA9AEB2B1C8952E9002ED5D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
