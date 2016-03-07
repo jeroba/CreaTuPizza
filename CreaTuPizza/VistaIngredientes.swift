@@ -35,6 +35,7 @@ class VistaIngredientes: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        ingredientes.removeAll()
         ingredientes.append(jamon.on)
         ingredientes.append(peperoni.on)
         ingredientes.append(pavo.on)

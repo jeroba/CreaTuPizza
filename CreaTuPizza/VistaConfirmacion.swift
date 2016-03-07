@@ -77,48 +77,42 @@ class VistaConfirmacion: UIViewController {
             } else{
                 if contador == 1 {
                     if ingrediente == true{
-                        ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Jamon,"
+                        ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Peperoni,"
                     }
                 }else{
                     if contador == 2 {
                         if ingrediente == true{
-                            ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Peperoni,"
+                            ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Pavo,"
                         }
                     }else{
                         if contador == 3 {
                             if ingrediente == true{
-                                ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Pavo,"
+                                ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Salchicha,"
                             }
                         }else{
                             if contador == 4 {
                                 if ingrediente == true{
-                                    ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Salchicha,"
+                                    ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Aceitunas,"
                                 }
                             }else{
                                 if contador == 5 {
                                     if ingrediente == true{
-                                        ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Aceitunas,"
+                                        ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Cebolla,"
                                     }
                                 }else{
                                     if contador == 6 {
                                         if ingrediente == true{
-                                            ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Cebolla,"
+                                            ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Pimiento,"
                                         }
                                     }else{
                                         if contador == 7 {
                                             if ingrediente == true{
-                                                ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Pimiento,"
+                                                ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Piña,"
                                             }
                                         }else{
                                             if contador == 8 {
                                                 if ingrediente == true{
-                                                    ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Piña,"
-                                                }
-                                            }else{
-                                                if contador == 9 {
-                                                    if ingrediente == true{
-                                                        ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Anchoa."
-                                                    }
+                                                    ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Anchoa,"
                                                 }
                                             }
                                         }
