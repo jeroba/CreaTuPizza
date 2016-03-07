@@ -540,10 +540,10 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamon, Piña" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-68-Eiy">
-                                        <rect key="frame" x="130" y="129" width="153" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamon, Piña" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-68-Eiy">
+                                        <rect key="frame" x="130" y="129" width="392" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="153" id="YZ6-gS-Yit"/>
+                                            <constraint firstAttribute="width" constant="392" id="YZ6-gS-Yit"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -564,7 +564,7 @@
                                     <constraint firstItem="DEN-Qu-ILL" firstAttribute="leading" secondItem="s2C-vF-Lfm" secondAttribute="leading" id="X7j-LM-9c3"/>
                                     <constraint firstItem="05i-p8-rAl" firstAttribute="firstBaseline" secondItem="206-YG-siK" secondAttribute="firstBaseline" id="Yea-2G-xzO"/>
                                     <constraint firstItem="s2C-vF-Lfm" firstAttribute="firstBaseline" secondItem="S5X-68-Eiy" secondAttribute="firstBaseline" id="YoQ-zN-b1S"/>
-                                    <constraint firstAttribute="trailing" secondItem="S5X-68-Eiy" secondAttribute="trailing" constant="247" id="b3q-2q-Yb4"/>
+                                    <constraint firstAttribute="trailing" secondItem="S5X-68-Eiy" secondAttribute="trailing" constant="8" id="b3q-2q-Yb4"/>
                                     <constraint firstItem="s2C-vF-Lfm" firstAttribute="baseline" secondItem="S5X-68-Eiy" secondAttribute="baseline" id="fpu-By-9KZ"/>
                                     <constraint firstItem="HvD-uj-HiP" firstAttribute="leading" secondItem="Z16-G4-wHQ" secondAttribute="trailing" constant="9" id="ouG-VQ-hdq"/>
                                     <constraint firstItem="05i-p8-rAl" firstAttribute="baseline" secondItem="206-YG-siK" secondAttribute="baseline" id="s3P-3u-lrC"/>
