@@ -581,26 +581,38 @@
                                     <segue destination="LJ4-wb-t0C" kind="show" id="3B6-9X-hyV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qa8-2q-VKb">
+                                <rect key="frame" x="36" y="527" width="530" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WuS-c4-cRb" firstAttribute="centerX" secondItem="4fe-eR-rg0" secondAttribute="centerX" id="2AD-xn-IDy"/>
+                            <constraint firstItem="Qa8-2q-VKb" firstAttribute="top" secondItem="WuS-c4-cRb" secondAttribute="bottom" constant="13" id="58X-Ev-hjF"/>
                             <constraint firstItem="7FJ-8e-dDi" firstAttribute="leading" secondItem="lDC-zE-wPa" secondAttribute="leadingMargin" constant="16" id="6Pf-7T-XHs"/>
                             <constraint firstItem="7FJ-8e-dDi" firstAttribute="leading" secondItem="GzQ-1k-lbv" secondAttribute="leading" id="Ijt-9u-NfR"/>
                             <constraint firstItem="DB3-CF-fHr" firstAttribute="top" secondItem="WuS-c4-cRb" secondAttribute="bottom" constant="86" id="KH8-E9-n5f"/>
                             <constraint firstItem="4fe-eR-rg0" firstAttribute="top" secondItem="imo-ld-vXf" secondAttribute="bottom" constant="33" id="QUW-o8-GRS"/>
                             <constraint firstItem="7FJ-8e-dDi" firstAttribute="trailing" secondItem="GzQ-1k-lbv" secondAttribute="trailing" id="Rnh-BE-JSJ"/>
+                            <constraint firstItem="Qa8-2q-VKb" firstAttribute="centerX" secondItem="lDC-zE-wPa" secondAttribute="centerX" constant="1" id="X2A-1M-Isv"/>
                             <constraint firstItem="4fe-eR-rg0" firstAttribute="centerX" secondItem="lDC-zE-wPa" secondAttribute="centerX" id="apd-b3-ngI"/>
                             <constraint firstItem="WuS-c4-cRb" firstAttribute="top" secondItem="GzQ-1k-lbv" secondAttribute="bottom" constant="13" id="iqK-gw-c2J"/>
                             <constraint firstItem="GzQ-1k-lbv" firstAttribute="top" secondItem="7FJ-8e-dDi" secondAttribute="bottom" constant="3" id="mcH-fQ-YQi"/>
                             <constraint firstItem="7FJ-8e-dDi" firstAttribute="top" secondItem="4fe-eR-rg0" secondAttribute="bottom" constant="44" id="qd4-T4-eea"/>
                             <constraint firstItem="GzQ-1k-lbv" firstAttribute="centerX" secondItem="WuS-c4-cRb" secondAttribute="centerX" id="u8y-E6-HRJ"/>
+                            <constraint firstItem="Qa8-2q-VKb" firstAttribute="leading" secondItem="GzQ-1k-lbv" secondAttribute="leading" id="x2I-vf-4og"/>
+                            <constraint firstItem="DB3-CF-fHr" firstAttribute="top" secondItem="Qa8-2q-VKb" secondAttribute="bottom" constant="52" id="yxB-N6-Tre"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="QuesoSeleccionado" destination="HvD-uj-HiP" id="ygC-CO-wbi"/>
                         <outlet property="ingredientesSeleccionado" destination="S5X-68-Eiy" id="1aj-UC-M9y"/>
                         <outlet property="masaSeleccionado" destination="FfQ-wx-Ctf" id="d6G-iz-kgi"/>
+                        <outlet property="mensajeError" destination="Qa8-2q-VKb" id="7lY-OA-nUh"/>
+                        <outlet property="ordenar" destination="WuS-c4-cRb" id="cHL-cU-Svp"/>
                         <outlet property="tamanioSeleccionado" destination="05i-p8-rAl" id="gEC-lH-wv0"/>
                     </connections>
                 </viewController>

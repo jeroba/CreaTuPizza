@@ -18,6 +18,8 @@ class VistaConfirmacion: UIViewController {
     @IBOutlet weak var masaSeleccionado: UILabel!
     @IBOutlet weak var QuesoSeleccionado: UILabel!
     @IBOutlet weak var ingredientesSeleccionado: UILabel!
+    @IBOutlet weak var mensajeError: UILabel!
+    @IBOutlet weak var ordenar: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,8 +64,12 @@ class VistaConfirmacion: UIViewController {
         }
         
         var contador = 0
+        var numeroIngredientes = 0
         ingredientesSeleccionado.text = " "
         for ingrediente in ingredientes{
+            if ingrediente == true{
+                numeroIngredientes += 1
+            }
             if contador == 0{
                 if ingrediente == true{
                     ingredientesSeleccionado.text = ingredientesSeleccionado.text! + "Jamon,"
@@ -126,6 +132,19 @@ class VistaConfirmacion: UIViewController {
             contador += 1
         }
         
+        
+        if numeroIngredientes < 1{
+            mensajeError.text = "Seleccione por lo menos un ingrediente."
+            ordenar.hidden = true
+        }else{
+            if numeroIngredientes > 5{
+                mensajeError.text = "Solo puede seleccionar 5 ingredientes."
+                ordenar.hidden = true
+            }else{
+                ordenar.hidden = false
+                mensajeError.text = ""
+            }
+        }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
