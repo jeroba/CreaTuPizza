@@ -20,6 +20,12 @@ class VistaProcesada: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func aceptar(sender: AnyObject) {
+        if let composeViewController = self.navigationController?.viewControllers[0] {
+            self.navigationController?.popToViewController(composeViewController, animated: true)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
