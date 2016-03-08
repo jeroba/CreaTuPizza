@@ -309,7 +309,7 @@
                                             <constraint firstAttribute="height" constant="109" id="jQs-vf-MtV"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piña" translatesAutoresizingMaskIntoConstraints="NO" id="CDr-6Y-HfF">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pina" translatesAutoresizingMaskIntoConstraints="NO" id="CDr-6Y-HfF">
                                         <rect key="frame" x="192" y="331" width="154" height="110"/>
                                     </imageView>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="27r-GH-chO">
@@ -710,7 +710,7 @@
         <image name="pavo" width="287" height="175"/>
         <image name="pepperoni" width="320" height="320"/>
         <image name="pimiento" width="620" height="417"/>
-        <image name="piña" width="1000" height="820"/>
+        <image name="pina" width="1000" height="820"/>
         <image name="queso" width="225" height="225"/>
         <image name="salchicha" width="550" height="367"/>
         <image name="tipoMasa" width="275" height="183"/>
